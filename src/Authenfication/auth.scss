@@ -1,0 +1,46 @@
+.Authenfication {
+    form {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 470px;
+    height: 500px;
+    background-color: #4B5689;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    }
+    .register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    }
+    input, select{
+    width: 340px;
+    height: 52px;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(191, 191, 177);
+    margin: 20px;
+    }
+    input::placeholder {
+    color: rgb(191, 191, 177);
+    }
+    input::before {
+    background-color: transparent;
+    }
+    button {
+    color: #4B5689;
+    /* background-color: #fff; */
+    width: 340px;
+    height: 52px;
+    /* border: 2px;
+    border-radius: 10px; */
+    }
+    p, a {
+     color: #fff;
+    }
+}

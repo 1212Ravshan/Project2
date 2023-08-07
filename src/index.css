@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  width: 100%;
+  margin: 50px auto; 
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+main h2, p, b {
+  margin: 10px 20px;
+  color: #333;
+}
+.add {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #ca5252;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  font-weight: 600;
+}
+ .item {
+  width: 500px;
+  margin: 50px;
+  padding-top: 100px;
+  height: 140px;
+  padding-bottom: 150px;
+  position: relative;
+}
+ .item img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px 10px;
+}
+
+ .item img:hover {
+  transform: scale(1.05);
+}
+
+.categories div {
+  display: inline-block;
+  background: transparent;
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 30px, 40px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+  
+}
+.categories h1 {
+  padding-top: 29px;
+}
+.categories div:hover {
+  background: #ca5252;
+  color: #fff;
+  transform: scale(1.05);
+  transition: 500ms right;
+}
+
